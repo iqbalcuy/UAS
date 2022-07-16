@@ -1,0 +1,70 @@
+.kota-gallery {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  img{
+      height: 150px;
+      width: 170px;
+      justify-self: center;
+  }
+
+  article{
+      padding: 10px;
+      background: red;
+  }
+  .page{
+      margin: 10px;
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+  }
+  /* buat abru */
+  .kontener{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .section{
+      padding: 10px 0;
+  }
+  .box{
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 1px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+  }
+
+  .col-5{
+      width: 25%;
+      height: 230px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 0px;
+      box-sizing: border-box;
+      margin: 15px;
+  }
+  img{
+      width: 100%;
+      padding: 0px;
+      padding-bottom: 5px;
+      border-radius: 10px 10px 0 0;
+  }
+  p{
+      box-sizing: border-box;
+      padding: 0  10px;
+  }
+  #harga{
+      display: flex;
+      flex-direction: row-reverse;
+      color: #00cec9;
+      
+  }
+
+  
